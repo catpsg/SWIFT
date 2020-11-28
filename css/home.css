@@ -1,0 +1,150 @@
+body {
+    
+    font-family: Helvetica;
+    background-image:none;
+    background-color:#CDCBCB;
+    font-weight: bold;
+    
+}
+* {
+    box-sizing: border-box;
+    color: black;
+}
+
+.header{
+    width:100vw;
+    margin-left: -10px;
+}
+
+#homeform{
+  
+  width:50vw;
+  margin-left: 25vw;
+}
+
+#newUserBtn{
+    text-align: center;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=number],textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border: 1px solid;
+  border-radius: 10px;
+  resize:none;
+}
+textarea{
+border-radius:0px;
+}
+
+input[type=text]:focus, input[type=password]:focus,input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+a{
+  cursor: pointer;
+  color: #0060B6;
+  text-decoration: none;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #FFC500;
+  color: black;
+  padding: 14px 20px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+.submit{
+  border:1px solid;
+  font-weight: bold;
+  float:right;
+  width: 25%;
+  font-size: 16px;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn, .loginbtn {
+  
+  border:1px solid;
+  font-weight: bold;
+  float:right;
+  
+  font-size: 16px;
+
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+ 
+  color:white;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 600px) {
+  #homeform {
+    min-width: 70vw;
+
+  }
+}
+@media screen and (max-width: 600px) {
+  #titleContent{
+    
+    margin-top:-1px;
+    width:100%;
+
+  }
+  #logo{
+    width:120%;
+  }
+
+}
+#logout{
+ font-size:28px;
+ margin-right: 15px;
+}
+#agree{
+  color:black;
+  
+}
+.agree{
+  font-size:12px;
+  
+}
+
+.terms{
+  font-size:12px;
+  margin:-10px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left:2px;
+  margin-right:10px;
+}

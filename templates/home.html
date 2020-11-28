@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWIFT Mobile auth</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>SWIFT Mobile Auth</title>
+</head>
+<body>
+    <div class="header">
+        <div id="logo">
+            <img id="logoimg" src="images/catlogo.png" alt="logo" >
+           
+        </div>
+        
+        <div id="titleContent">
+            
+            <ul>
+               <a href="#"> <li>Home</li></a>
+               <a href="#"> <li>Action-Items</li></a>
+               
+              
+            </ul>
+            <a href="#"><i id="logout" title="Hi, Mohankumar Nithyanandham" class='fas fa-user-circle' ></i></a>
+            
+        </div>
+    </div>
+   
+        <form id="homeform" action="/action_page.js" >
+            <div class="container">
+                <br>
+               
+                <label for="cws"><b>CWS_ID</b></label><br>
+                <input type="text" placeholder="Enter cws_id" name="cws" required><br>
+                <label for="mobile"><b>Mobile Modal</b></label><br>
+                <input type="text" placeholder="Enter mobile modal-for multiple mobiles(enter mobile1,mobile2,...)" name="mobile" required><br>
+                <label for="email"><b>Mobile number</b></label><br>
+                <input type="number" placeholder="Enter mobile number" name="mobileNumber" required><br>
+                <label for="comments"><b>Comments</b></label><br>
+                <textarea></textarea><br>
+                <label for="cars"><b>Aproved by</b></label>
+
+                <select name="cars" id="cars">
+                        <option value="">Volvo</option>
+                        <option value="">Saab</option>
+                        <option value="">MercedesBenzzzzzzzzzz</option>
+                        <option value="">Audi</option>
+                </select><br>
+   
+                <h5>Terms & Conditions</h5>
+                <p class="terms">In this example, the tsds ghhgh jkasjhd ooltip is placed to the right (left:105%djhfj kdhfkjdfhj dla dhfkj adhfj djafhjdah fjdkfjklsdj hbdhf hdsf hsbdf jdbhfd jdkfnkjdf) of the "hoverable" text . Also note that top:-5px is used to place it in the middle of its container element. We use the number 5 because the tooltip text has a top and</p><br>
+                <p class="agree"><input type="checkbox" name="checkbox" value="check" id="agree"   required/> I agree to the above mentioned T&C.</p>
+         
+                
+                
+                <button type="submit" class="submit">Submit</button>
+               
+          
+          
+        </div>
+      </form>
+      <div id="status">
+          
+      </div>
+    
+      
+    
+</body>
+</html>

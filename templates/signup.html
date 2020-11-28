@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWIFT Mobile auth</title>
+    <link rel="stylesheet" href="css/login.css">
+    
+    <link rel="stylesheet" href="css/home.css">
+    
+</head>
+<body>
+    <div class="header">
+        <div id="logo">
+            <img id="logoimg" src="images/catlogo.png" alt="logo" >
+        </div>
+        
+        <div id="titleContent">
+            <h4 class="title">SWIFT Mobile Authentication</h4>
+            <ul>
+                <a href="#"><li>Login</li></a>
+                
+                
+            </ul>
+        </div>
+    </div>
+   
+        <form id="homeform" action="/action_page.js" >
+            <div class="container">
+                <br>
+               
+                <label  for="firstName"><b>FirstName*</b></label><br>
+               
+                <input  type="text" placeholder="Enter FirstName" name="firstName" required><br>
+                <label for="firstName"><b>LastName*</b></label><br>
+                <input type="text" placeholder="Enter FirstName" name="firstName" required><br>
+                <label for="email"><b>Email*</b></label><br>
+                <input type="text" placeholder="Enter Email" name="email" required><br>
+
+                <label for="email"><b>CWS_ID*</b></label><br>
+                <input type="text" placeholder="Enter CWS_ID" name="cws" required><br>
+                <label for="psw"><b>Password*</b></label><br>
+                <input type="password" placeholder="Enter Password" name="psw" required><br>   
+                <label for="psw-repeat"><b>Confirm Password*</b></label><br>
+                <input type="password" placeholder="Confirm Password" name="psw-repeat" required><br>
+                <p>Please select your access level:</p>
+                    <input type="radio" id="employee" name="accessLevel" checked value="employee" required>
+                    <label for="employee">Employee</label>
+                    <input type="radio" id="supervisor" name="accessLevel" value="supervisor" required>
+                    <label for="supervisor">Supervisor</label>
+                <button type="submit" class="signupbtn">Sign Up</button>
+               
+          
+          
+        </div>
+      </form>
+      <div id="status">
+          
+      </div>
+    
+      
+    
+</body>
+</html>
