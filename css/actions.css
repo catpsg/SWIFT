@@ -1,0 +1,95 @@
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+ td{
+    word-wrap: break-word; 
+    text-align:center;
+ }
+ thead tr th{
+     text-align:center;
+     background-color: rgb(151, 148, 148);
+ }
+ table {
+     margin-top: 20px;
+     table-layout:fixed;
+	 width: 100%;
+}
+ table th {
+	 text-align: left;
+	 border-bottom: 1px solid #ccc;
+}
+ table th, table td {
+     padding: 0.4em;
+     width:10%;
+}
+ table.fold-table > tbody > tr.view td, table.fold-table > tbody > tr.view th {
+	 cursor: pointer;
+}
+ table.fold-table > tbody > tr.view td:first-child, table.fold-table > tbody > tr.view th:first-child {
+	 position: relative;
+	 padding-left: 20px;
+}
+ table.fold-table > tbody > tr.view td:first-child:before, table.fold-table > tbody > tr.view th:first-child:before {
+	 position: absolute;
+	 top: 50%;
+	 left: 5px;
+	 width: 9px;
+	 height: 16px;
+	 margin-top: -8px;
+	 font: 16px fontawesome;
+	 color: #999;
+	 content: none;
+	 transition: all 0.3s ease;
+}
+ table.fold-table > tbody > tr.view:nth-child(2n-1) {
+	 background: #eee;
+}
+ table.fold-table > tbody > tr.view:hover {
+	 background: tomato;
+}
+ table.fold-table > tbody > tr.view.open {
+	 
+	 color: white;
+}
+ table.fold-table > tbody > tr.view.open td:first-child:before, table.fold-table > tbody > tr.view.open th:first-child:before {
+	 transform: rotate(-180deg);
+	 color: #333;
+}
+ table.fold-table > tbody > tr.fold {
+	 display: none;
+}
+ table.fold-table > tbody > tr.fold.open {
+	 display: table-row;
+}
+ .fold-content {
+	 padding: 0.5em;
+}
+ .fold-content h3 {
+	 margin-top: 0;
+}
+ .fold-content > table {
+	 border: 2px solid #ccc;
+}
+ .fold-content > table > tbody tr:nth-child(even) {
+	 background: #eee;
+}
+.form-group {
+    margin-top:20px;
+    float:left;
+    width: 100%;;
+}
+td button {
+    background-color:red;
+    text-align:center;
+    padding: 10px;
+}
+.btn-primary{
+   
+    background-color:rgb(57, 156, 57);
+}
+
+input[type=text]{
+    border-radius: 0px;
+}
+textarea{
+    resize: none;
+}
